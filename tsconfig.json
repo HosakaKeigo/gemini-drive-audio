@@ -1,0 +1,8 @@
+{
+	"compilerOptions": {
+		"lib": ["esnext"],
+		"experimentalDecorators": true,
+		"target": "ES2021",
+		"noImplicitAny": true
+	}
+}
