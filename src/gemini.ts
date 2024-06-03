@@ -43,7 +43,7 @@ class GeminiService {
     try {
       return scriptProperties.getProperty('DEFAULT_MODEL');
     } catch (e) {
-      throw new Error("Error getting Google API key from script properties.");
+      throw new Error("Error getting DEFAULT_MODEL from script properties.");
     }
   }
 }
